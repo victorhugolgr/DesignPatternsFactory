@@ -5,9 +5,9 @@ import java.time.format.DateTimeFormatter;
 
 public abstract class Log {
 
-	abstract ImprimeLog geraLog();
+	protected abstract ImprimeLog geraLog();
 	
-	protected void log(String mensagem){
+	public void log(String mensagem){
 		String dataAtual = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"));
 		String mensagemComTempo;
 		mensagemComTempo = "Data: " + dataAtual + " - " + mensagem;
