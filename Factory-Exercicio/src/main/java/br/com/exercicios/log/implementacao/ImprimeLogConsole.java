@@ -1,4 +1,6 @@
-package br.com.exercicios.log;
+package br.com.exercicios.log.implementacao;
+
+import br.com.exercicios.log.ImprimeLog;
 
 public class ImprimeLogConsole implements ImprimeLog{
 

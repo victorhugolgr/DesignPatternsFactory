@@ -1,7 +1,7 @@
 package br.com.exercicios.teste;
 
 import br.com.exercicios.log.Log;
-import br.com.exercicios.log.LogConsole;
+import br.com.exercicios.log.implementacao.LogConsole;
 
 public class TesteConsole {
 
